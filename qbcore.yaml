@@ -77,11 +77,6 @@ tasks:
     path: ./resources/[voice]
 
   - action: download_github
-    dest: ./resources/[voice]/pma-voice
-    ref: main
-    src: https://github.com/qbcore-framework/pma-voice
-
-  - action: download_github
     dest: ./resources/[voice]/rp-radio
     ref: master
     src: https://github.com/qbcore-framework/rp-radio
